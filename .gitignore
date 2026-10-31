@@ -1,0 +1,19 @@
+# Dependencias Node
+node_modules/
+dist/
+.next/
+
+# Entornos Python
+__pycache__/
+.venv/
+*.pyc
+
+# Variables de entorno y secretos
+.env
+.env.local
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
