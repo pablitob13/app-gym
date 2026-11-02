@@ -1,21 +1,42 @@
-export interface ExerciseSet {
+export interface RoutineSetTarget {
+  setNumber: number;
+  targetReps: number | string;
+  targetWeight: number | string;
+}
+
+export interface RoutineExercise {
+  id: string;
+  name: string;
+  targetSets: RoutineSetTarget[];
+}
+
+export interface Routine {
+  id: string;
+  name: string;
+  exercises: RoutineExercise[];
+}
+
+export interface SessionSet {
   id: string;
   setNumber: number;
-  weightKg: number | string;
+  weight: number | string;
   reps: number | string;
   notes: string;
 }
 
-export interface Exercise {
+export interface SessionExercise {
   id: string;
   name: string;
-  sets: ExerciseSet[];
+  notes?: string;
+  sets: SessionSet[];
 }
 
-export interface WorkoutSessionData {
+export interface WorkoutSession {
   id: string;
-  title: string;
-  date: string;
-  exercises: Exercise[];
+  date: string; // formato YYYY-MM-DD
+  routineName: string;
+  routineId?: string;
+  startTime?: string;
   completedAt?: string;
+  exercises: SessionExercise[];
 }
