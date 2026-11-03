@@ -1,0 +1,85 @@
+[
+  {
+    "id": "routine-torso",
+    "name": "Día de Torso (Pecho y Espalda)",
+    "exercises": [
+      {
+        "id": "ex-1",
+        "name": "Press banca con barra",
+        "default_sets": 5
+      },
+      {
+        "id": "ex-2",
+        "name": "Remo con barra",
+        "default_sets": 4
+      },
+      {
+        "id": "ex-3",
+        "name": "Press inclinado mancuernas",
+        "default_sets": 3
+      },
+      {
+        "id": "ex-4",
+        "name": "Jalón al pecho",
+        "default_sets": 3
+      },
+      {
+        "id": "ex-5",
+        "name": "Fondos de tríceps",
+        "default_sets": 3
+      }
+    ]
+  },
+  {
+    "id": "routine-pierna",
+    "name": "Día de Pierna",
+    "exercises": [
+      {
+        "id": "ex-6",
+        "name": "Sentadilla trasera",
+        "default_sets": 4
+      },
+      {
+        "id": "ex-7",
+        "name": "Peso muerto rumano",
+        "default_sets": 4
+      },
+      {
+        "id": "ex-8",
+        "name": "Prensa de piernas",
+        "default_sets": 3
+      },
+      {
+        "id": "ex-9",
+        "name": "Elevación de gemelos",
+        "default_sets": 4
+      }
+    ]
+  },
+  {
+    "id": "routine-brazo-hombro",
+    "name": "Día de Hombro y Brazos",
+    "exercises": [
+      {
+        "id": "ex-10",
+        "name": "Press militar con mancuernas",
+        "default_sets": 4
+      },
+      {
+        "id": "ex-11",
+        "name": "Elevaciones laterales",
+        "default_sets": 4
+      },
+      {
+        "id": "ex-12",
+        "name": "Curl bíceps con barra Z",
+        "default_sets": 3
+      },
+      {
+        "id": "ex-13",
+        "name": "Extensión tríceps en polea",
+        "default_sets": 3
+      }
+    ]
+  }
+]
